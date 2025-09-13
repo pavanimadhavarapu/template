@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_USER = 'pavanimadhavarapu'
-        IMAGE_NAME = 'Niqvist'
+        IMAGE_NAME = 'niqvist'   // <-- must be lowercase
         HOST_PORT = "8006"
         CONTAINER_PORT = "80"
     }
@@ -49,3 +49,4 @@ pipeline {
         }
     }
 }
+
